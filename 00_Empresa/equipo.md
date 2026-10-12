@@ -10,6 +10,5 @@
 | Juan Felipe Salamanca Lancheros | CFO | Presupuesto, flujo de caja, indicadores financieros, viabilidad |
 
 ## Organización del trabajo
-- Reuniones y actas: `gestion_equipo/actas/`
-- Evidencias de participación (commits, entregables por integrante): `gestion_equipo/evidencias.md`
-- Cada integrante hace commits en la carpeta de su módulo.
+- Reuniones y actas
+
