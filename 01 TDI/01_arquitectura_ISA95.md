@@ -10,7 +10,7 @@ Q3 quesillo). Yogures y UHT aparecen como bloques de la planta, sin detalle.
 | Batch | Tratamiento en marmita, ciclo de la tina (cuajo, coagulación, corte, desuerado), recetas | Grafcet, ISA-88 |
 | Discreto | Moldeo de bloques, manejo en salmuera, empaque al vacío, codificación, encajonado, paletizado | Ladder, robot |
 
-## Niveles (numeración del Módulo 1)
+## Niveles 
 | Nivel | Capa | Contenido en la línea de quesos | Estándar ISA-95 |
 |---|---|---|---|
 | N5 | ERP (SAP, conceptual) | Orden de producción, recepción de leche (4.200 L/día*), inventario de leche, cuajo y bolsas, costos | Nivel 4 |
