@@ -1,4 +1,4 @@
-\# Equipo de ingeniería
+# Equipo de ingeniería
 
 
 
