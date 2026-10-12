@@ -7,7 +7,7 @@ Proyecto Integrador · Automatización de Procesos de Manufactura 2026-2S · UNA
 - Página web: _(URL de GitHub Pages)_
 - Video de sustentación: _(URL de YouTube)_
 
-## Estado por módulo
+## Estado del proyecto
 | Carpeta | Contenido | Estado |
 |---|---|---|
 | 00_Empresa | Empresa, equipo, gestión del equipo | Listo |
