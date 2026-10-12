@@ -16,6 +16,7 @@ Proyecto Integrador · Automatización de Procesos de Manufactura 2026-2S · UNA
 | 03 Planeación| EDT, cronograma, presupuesto | En desarrollo |
 | 04 Layaout y Diagramas | Layout, diagramas de proceso | En desarrollo |
 | 05 Recetas | Recetas Q1-Q3, Y1-Y3, L1-L3 | En desarrollo |
+| 06 Pagina Web | Estrucutura y desglose de la pagina  | En desarrollo |
 
 ## Convenciones
 - Niveles ISA-95 (diapositivas Módulo 1): N0 Proceso · N1 Campo · N2 Control ·
