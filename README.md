@@ -10,12 +10,12 @@ Proyecto Integrador · Automatización de Procesos de Manufactura 2026-2S · UNA
 ## Estado del proyecto
 | Carpeta | Contenido | Estado |
 |---|---|---|
-| 00_Empresa | Empresa, equipo, gestión del equipo | Listo |
-| 01_TDI | ISA-95, ISA-88, recetas, instrumentación | En desarrollo |
-| 02_Gestion_Produccion | VSM, KPIs, simulación | En desarrollo |
-| 03_Proyectos | EDT, cronograma, presupuesto | En desarrollo |
-| 04_Layout_Procesos | Layout, diagramas de proceso | En desarrollo |
-| 05_Recetas | Recetas Q1-Q3, Y1-Y3, L1-L3 | En desarrollo |
+| 00 Empresa | Empresa, equipo, gestión del equipo | Listo |
+| 01 TDI | ISA-95, ISA-88, recetas, instrumentación | En desarrollo |
+| 02 Gestion Produccion | VSM, KPIs, simulación | En desarrollo |
+| 03 Planeación| EDT, cronograma, presupuesto | En desarrollo |
+| 04 Layaout y Diagramas | Layout, diagramas de proceso | En desarrollo |
+| 05 Recetas | Recetas Q1-Q3, Y1-Y3, L1-L3 | En desarrollo |
 
 ## Convenciones
 - Niveles ISA-95 (diapositivas Módulo 1): N0 Proceso · N1 Campo · N2 Control ·
