@@ -7,7 +7,7 @@ Proyecto Integrador · Automatización de Procesos de Manufactura 2026-2S · UNA
 - Página web: _(URL de GitHub Pages)_
 - Video de sustentación: _(URL de YouTube)_
 
-## Estado por módulo (entrega intermedia)
+## Estado por módulo
 | Carpeta | Contenido | Estado |
 |---|---|---|
 | 00_Empresa | Empresa, equipo, gestión del equipo | Listo |
@@ -16,7 +16,6 @@ Proyecto Integrador · Automatización de Procesos de Manufactura 2026-2S · UNA
 | 03_Proyectos | EDT, cronograma, presupuesto | En desarrollo |
 | 04_Layout_Procesos | Layout, diagramas de proceso | En desarrollo |
 | 05_Recetas | Recetas Q1-Q3, Y1-Y3, L1-L3 | En desarrollo |
-| 06 a 09 | Celda, gemelo digital, control, SCADA | Entrega final |
 
 ## Convenciones
 - Niveles ISA-95 (diapositivas Módulo 1): N0 Proceso · N1 Campo · N2 Control ·
