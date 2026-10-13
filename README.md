@@ -88,7 +88,7 @@ Una empresa del sector lácteo necesita modernizar su planta para mejorar la int
   </tr>
   <tr>
     <td align="center" width="33%">
-      <img src="ruta/foto_david.jpg" width="150" height="150" style="border-radius:50%;"><br>
+      <img src="Images/Integrantes/foto_david.jpg" width="150" height="150" style="border-radius:50%;"><br>
       <b>David Santiago Pirateque Suarez</b><br>
       <i>COO</i>
     </td>
