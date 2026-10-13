@@ -49,7 +49,7 @@ Mapeo de la secuencia lógica de manufactura utilizando simbología estándar AS
 
 <div align="center">
   <!-- Reemplaza la ruta con la ubicación real de tu imagen -->
-  <img src="./img/dop_quesos.png" alt="Diagrama de Operaciones de Proceso" width="800"/>
+  <img src="02 Gestion Produccion/Diagrama_de_operaciones_de_proceso.png" alt="Diagrama de Operaciones de Proceso" width="800"/>
   <p><i>Figura 1: Flow Process Chart de la línea de Quesos Frescos.</i></p>
 </div>
 
