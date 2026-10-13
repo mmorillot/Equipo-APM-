@@ -93,7 +93,7 @@ Una empresa del sector lácteo necesita modernizar su planta para mejorar la int
       <i>COO</i>
     </td>
     <td align="center" width="33%">
-      <img src="Images/Integrantes/foto_maria.png" width="150" height="150" style="border-radius:50%;"><br>
+      <img src="https://github.com/mmorillot/Equipo-APM-/blob/main/Images/Integrantes/foto_maria.png" width="150" height="150" style="border-radius:50%;"><br>
       <b>Maria Fernanda Morillo Tovar</b><br>
       <i>CIO</i>
     </td>
