@@ -69,7 +69,7 @@ El VSM contrasta el tiempo de valor agregado frente al Lead Time total.
 **Estado Actual (Push):** Evidencia altos niveles de inventario en proceso (WIP) debido a tiempos de espera manuales en la medición de pH y formatos de papel.
 <div align="center">
   <!-- Reemplaza la ruta con la ubicación real de tu imagen -->
-  <img src="./img/vsm_actual.png" alt="VSM Actual" width="800"/>
+  <img src="./VSM_queso.png" alt="VSM Actual" width="400"/>
 </div>
 
 **Estado Futuro (Pull + Automatización):** Propuesta con sensores en línea (pH ISFET), integración a SCADA/MES y control automatizado de la hiladora.
