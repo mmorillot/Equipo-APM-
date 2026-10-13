@@ -49,7 +49,7 @@ Mapeo de la secuencia lógica de manufactura utilizando simbología estándar AS
 
 <div align="center">
   <!-- Reemplaza la ruta con la ubicación real de tu imagen -->
-  <img src="./Diagrama_de_operaciones_de_proceso.png" alt="Diagrama de Operaciones de Proceso" width="800"/>
+  <img src="./Diagrama_de_operaciones_de_proceso.png" alt="Diagrama de Operaciones de Proceso [1]" width="800"/>
   <p><i>Figura 1: Flow Process Chart de la línea de Quesos Frescos.</i></p>
 </div>
 
@@ -117,3 +117,7 @@ El experimento de simulación compara el rendimiento de la planta con control ma
 **Conclusiones de la Simulación:**
 * La automatización de los parámetros térmicos en la hiladora elimina el cuello de botella virtual generado por paradas no programadas.
 * El *Throughput* simulado alcanza las metas establecidas por el Takt Time, garantizando el cumplimiento de la orden de producción del ERP.
+
+### Referencias
+[1] M. G. Arteaga Rubio y A. D. Parra Ayme, “Diseño del sistema productivo de la fabricación de queso mozzarella hilado para el incremento de la capacidad de producción en la empresa de lácteos ‘San Luis’,” Proyecto de Investigación, Carrera de Ingeniería Industrial, Facultad de Ciencias de la Ingeniería y Aplicadas, Universidad Técnica de Cotopaxi, Latacunga, Ecuador, mar. 2021. [En línea]. Disponible: https://repositorio.utc.edu.ec/server/api/core/bitstreams/c275d028-00db-4067-b805-36c3f4acf1b7/content. [Accedido: 12-oct-2026].
+
