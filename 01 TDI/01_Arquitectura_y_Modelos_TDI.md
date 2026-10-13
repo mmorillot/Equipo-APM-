@@ -1,24 +1,25 @@
 # Arquitectura y Modelos TDI - Planta Láctea
 
 ## Introducción a la Transformación Digital Industrial (TDI)
-La Transformación Digital Industrial (TDI) es la integración holística de las tecnologías digitales con los procesos físicos de manufactura. Su objetivo principal trasciende la simple instalación de hardware automatizado; busca conectar el piso de planta (OT) con los sistemas de gestión empresarial (IT). Mediante la adopción de tecnologías de medición, control y plataformas como SCADA, MES y ERP, la TDI convierte los datos operativos en información estratégica para optimizar la rentabilidad, garantizar la calidad y respaldar la toma de decisiones del negocio en tiempo real.
+La Transformación Digital Industrial (TDI) es la integración holística de las tecnologías digitales con los procesos físicos de manufactura. El objetivo trasciende la simple instalación de hardware; busca conectar el piso de planta (OT) con los sistemas de gestión empresarial (IT). A través de la arquitectura ISA-95 y el modelado ISA-88, la planta convierte datos operativos (sensores, tiempos, alarmas) en información estratégica en tiempo real, permitiendo optimizar el OEE, asegurar la trazabilidad y soportar la toma de decisiones gerenciales.
 
-### ¿Por qué elegimos la Línea de Quesos de Pasta Hilada?
-Para desarrollar la ingeniería de detalle, seleccionamos la línea de quesos de pasta hilada debido a que representa el desafío mecatrónico e informático más completo de la planta:
-1. **Naturaleza Híbrida:** Exige gobernar la transición perfecta entre procesos por lotes rígidos (coagulación de la cuajada en tinas durante 30-40 min), procesos continuos (hilado y amasado termomecánico) y procesos discretos rápidos (moldeo y empaque)[cite: 214].
-2. **Impacto en Seguridad (Operacional):** La automatización de la hiladora elimina la necesidad de que los operarios manipulen manualmente la masa en agua a altas temperaturas (75 °C - 85 °C), reduciendo el riesgo de accidentes laborales.
-3. **Control Crítico de Calidad (Económico):** El éxito de la pasta hilada depende de alcanzar un pH exacto (4.9 a 5.1). Implementar sensores ISFET en línea integrados al SCADA evita el error humano en la medición, reduciendo drásticamente las mermas térmicas y los rechazos de producto.
-4. **Flexibilidad (ISA-88):** Permite demostrar cómo el sistema MES descarga recetas específicas a los mismos equipos físicos para producir referencias con variables muy distintas (Mozzarella, Quesillo y 7 Cueros).
+### Justificación: ¿Por qué el análisis detallado se enfoca en la línea de Quesos?
+Aunque la planta cuenta con tres líneas de producción (Yogures, UHT y Quesos), el diseño de automatización y el gemelo digital se enfocan en la **Línea de Quesos Frescos (Pasta Hilada)** debido a su alta complejidad mecatrónica y operativa:
+1. **Transición de paradigmas:** Exige gobernar la transición perfecta entre procesos por lotes (coagulación en tinas), continuos (hilado termomecánico) y discretos (moldeo y empaque).
+2. **Impacto en seguridad:** La automatización de la hiladora elimina la manipulación manual de la masa en agua a altas temperaturas (75 °C - 85 °C), mitigando riesgos laborales críticos.
+3. **Control de calidad económico:** La medición en línea del pH (4.9 a 5.1) mediante sensores ISFET elimina el error humano, reduciendo drásticamente las mermas y rechazos.
+
+A continuación, se detalla la arquitectura para la línea de quesos y se establecen los parámetros de investigación técnica para las líneas de yogures y leche UHT.
 
 ---
 
 ## Tabla de Contenido
-1. [Introducción y Justificación](#introducción-a-la-transformación-digital-industrial-tdi)
-2. [Modelo físico ISA-88 · Línea de quesos](#1-modelo-físico-isa-88--línea-de-quesos)
-3. [Modelo procedimental ISA-88 · Línea de quesos](#2-modelo-procedimental-isa-88--línea-de-quesos)
-4. [Instrumentación, variables y comunicaciones](#3-instrumentación-variables-y-comunicaciones--línea-de-quesos)
-5. [Referencias adicionales de planta (Yogures y UHT)](#4-referencias-adicionales-de-planta-yogures-y-uht)
-6. [Fuentes y Bibliografía](#5-fuentes-y-bibliografía)
+1. [Modelo físico ISA-88 · Línea de quesos](#1-modelo-físico-isa-88--línea-de-quesos)
+2. [Modelo procedimental ISA-88 · Línea de quesos](#2-modelo-procedimental-isa-88--línea-de-quesos)
+3. [Instrumentación, variables y comunicaciones](#3-instrumentación-variables-y-comunicaciones)
+4. [Parámetros de proceso · Yogures](#4-parámetros-de-proceso--yogures)
+5. [Parámetros de proceso · Leche UHT y bebidas](#5-parámetros-de-proceso--leche-uht-y-bebidas)
+6. [Fuentes y Bibliografía](#6-fuentes-y-bibliografía)
 
 ---
 
@@ -38,7 +39,7 @@ Los tags son propuestos y se confirman con el P&ID.
 | A5 Producto terminado | — | UN-501 encajonado; UN-502 celda robotizada de paletizado; UN-503 cuarto frío |
 | A6 Servicios | — | UN-601 CIP; UN-602 vapor; UN-603 agua helada |
 
-*Nota: Las áreas de yogures (A2) y UHT (A4) se reservan en la numeración, sin detalle profundo en ISA-88.*
+*(Las áreas de yogures (A2) y UHT (A4) se reservan en la numeración).*
 
 ### Módulos de equipo y de control
 | Unidad | Módulos de equipo | Módulos de control |
@@ -55,7 +56,7 @@ Los tags son propuestos y se confirman con el P&ID.
 
 ## 2. Modelo procedimental ISA-88 · Línea de quesos
 Procedimiento → Procedimiento de unidad → Operación → Fase.
-Un solo procedimiento maestro para las tres referencias; cada receta (Q1-Q3) altera los parámetros de ejecución.
+Un solo procedimiento maestro para las tres referencias; cada receta (Q1-Q3) cambia los parámetros.
 
 | Procedimiento de unidad | Operaciones (de los diagramas de proceso) | Fases de ejemplo (PLC) |
 |---|---|---|
@@ -65,11 +66,11 @@ Un solo procedimiento maestro para las tres referencias; cada receta (Q1-Q3) alt
 | UP-304 Salmuera | Preparar salmuera, enfriar y salmuerar | Mantener T de salmuera; inmersión temporizada; extraer |
 | UP-305 Empacar | Escurrir y secar, empacar, codificar lote, inspeccionar, armar caja, encajonar, paletizar | Vacío y sellado; codificar fecha y lote; verificar sello y metales |
 
-**Puntos de inspección clave:** pH en mesa de desuerado, temperatura de leche, integridad de bolsas, vacío/sellado y detección de metales en producto terminado.
+**Puntos de inspección:** pH, temperatura de leche, bolsas, vacío y sellado, producto terminado.
 
 ---
 
-## 3. Instrumentación, variables y comunicaciones · Línea de quesos
+## 3. Instrumentación, variables y comunicaciones
 
 | Unidad | Variables críticas | Sensores | Actuadores | Control |
 |---|---|---|---|---|
@@ -81,35 +82,32 @@ Un solo procedimiento maestro para las tres referencias; cada receta (Q1-Q3) alt
 | UN-306 Empacadora | Vacío, temperatura de sello, conteo, metales | Vacío, óptico, detector de metales | Sellado, codificador | Ladder |
 | UN-502 Paletizado | Posición, presencia | Sensores ópticos | Robot | Ladder + robot |
 
-**Comunicaciones (Arquitectura ISA-95):** 
-* N1-N2: Cableado duro y EtherNet/IP
-* N2-N3: Protocolo OPC
-* N3-N4: OPC UA / API Rest
-* N4-N5: Estándar B2MML / Servicios Web
+**Comunicaciones:** N1-N2 cableado y EtherNet/IP · N2-N3 OPC · N3-N4 OPC UA/API · N4-N5 B2MML/servicios web.
 
 ---
 
-## 4. Referencias adicionales de planta (Yogures y UHT)
-Aunque el enfoque de automatización recae sobre los quesos, la planta procesa las siguientes referencias en paralelo compartiendo los recursos de Nivel A1.
+## 4. Parámetros de proceso · Yogures
 
-### Yogures
 | Parámetro | Y1 Firme | Y2 Batido | Y3 Bebible (propuesta) |
 |---|---|---|---|
-| **Fermentación** | En el envase[cite: 214] | En tanque[cite: 214] | En tanque |
-| **Después de fermentar** | Enfriar y almacenar a 4 °C | Enfriar; inyección de fruta[cite: 214] | Homogeneizar, enfriar |
-| **Fase Común** | Tratamiento 85 °C por 20-30 min o 90-95 °C por 3-5 min[cite: 214]; incubación 40-43 °C hasta pH 4,5-4,6 (4-5 h)[cite: 214]; homogeneización 138-172 bar | *(Comparte parámetros base)* | *(Comparte parámetros base)* |
-
-### Leche UHT y bebidas
-| Parámetro | L1 Entera | L2 Deslactosada | L3 Saborizada chocolate (propuesta) |
-|---|---|---|---|
-| **Tratamiento UHT** | 135-140 °C, 2-4 s | Igual | Igual |
-| **Adición en línea** | Ninguna | Lactasa aséptica después del UHT, ~0,3 g/L | Cacao, azúcar, estabilizante |
+| **Fermentación** | En el envase | En tanque | En tanque |
+| **Después de fermentar** | Enfriar y almacenar a 4 °C | Enfriar; fruta | Homogeneizar, enfriar |
+| **Común** | Tratamiento 85 °C por 20-30 min o 90-95 °C por 3-5 min; incubación 40-43 °C hasta pH 4,5-4,6 (4-5 h); homogeneización 138-172 bar | *(Comparte parámetros base)* | *(Comparte parámetros base)* |
 
 ---
 
-## 5. Fuentes y Bibliografía
-* Teagasc, ficha *Production of Yoghurt*: [https://teagasc.ie/wp-content/uploads/media/website/rural-economy/rural-development/diversification/1-Production-of-Yoghurt.pdf](https://teagasc.ie/wp-content/uploads/media/website/rural-economy/rural-development/diversification/1-Production-of-Yoghurt.pdf)
-* SPX FLOW, boletín técnico de homogeneización y UHT: [https://www.spxflow.com/assets/pdf/apv-homogenizer-used-with-uht-us.pdf](https://www.spxflow.com/assets/pdf/apv-homogenizer-used-with-uht-us.pdf)
-* Tetra Pak, leche deslactosada: [https://www.tetrapak.com/solutions/categories/dairy/white-milk/lactose-free-milk-drinks](https://www.tetrapak.com/solutions/categories/dairy/white-milk/lactose-free-milk-drinks)
-* GEA, dosificación aséptica: [https://www.packaginginsights.com/news/aseptic-dosing-station-from-gea-tds.html](https://www.packaginginsights.com/news/aseptic-dosing-station-from-gea-tds.html)
-* Tetra Pak, *Dairy Processing Handbook* (Referencia general de procesos lácteos).
+## 5. Parámetros de proceso · Leche UHT y bebidas
+
+| Parámetro | L1 Entera | L2 Deslactosada | L3 Saborizada chocolate (propuesta) |
+|---|---|---|---|
+| **UHT** | 135-140 °C, 2-4 s | Igual | Igual |
+| **Adición** | Ninguna | Lactasa aséptica después del UHT, ~0,3 g/L | Cacao, azúcar, estabilizante |
+
+---
+
+## 6. Fuentes y Bibliografía
+- **Teagasc**, ficha *Production of Yoghurt*: [https://teagasc.ie/wp-content/uploads/media/website/rural-economy/rural-development/diversification/1-Production-of-Yoghurt.pdf](https://teagasc.ie/wp-content/uploads/media/website/rural-economy/rural-development/diversification/1-Production-of-Yoghurt.pdf)
+- **SPX FLOW**, boletín técnico de homogeneización y UHT: [https://www.spxflow.com/assets/pdf/apv-homogenizer-used-with-uht-us.pdf](https://www.spxflow.com/assets/pdf/apv-homogenizer-used-with-uht-us.pdf)
+- **Tetra Pak**, leche deslactosada: [https://www.tetrapak.com/solutions/categories/dairy/white-milk/lactose-free-milk-drinks](https://www.tetrapak.com/solutions/categories/dairy/white-milk/lactose-free-milk-drinks)
+- **GEA**, dosificación aséptica: [https://www.packaginginsights.com/news/aseptic-dosing-station-from-gea-tds.html](https://www.packaginginsights.com/news/aseptic-dosing-station-from-gea-tds.html)
+- **Tetra Pak**, *Dairy Processing Handbook* (referencia general de procesos).
