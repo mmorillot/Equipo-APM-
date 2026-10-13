@@ -60,7 +60,7 @@ Una empresa del sector lácteo necesita modernizar su planta para mejorar la int
 <table align="center">
   <tr>
     <td align="center" width="33%">
-      <img src="Images/Integrantes/Foto_duvan.jpg" width="150" height="150" style="border-radius:50%;"><br>
+      <img src="Images/Integrantes/foto_duvan.jpg" width="150" height="150" style="border-radius:50%;"><br>
       <b>Duvan Stiven Tique Osorio</b><br>
       <i>CEO</i>
     </td>
