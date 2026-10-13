@@ -122,9 +122,9 @@ El FCLO sube un poco con la inversión mayor porque la depreciación más alta r
 
 ## 9. Gráficas
 
-![FCLO por año](../Images/Finanzas/g1_fclo(1).png)
+![FCLO por año](../Images/Finanzas/g1_fclo (1).png)
 
-![Flujo acumulado nominal y descontado](../Images/Finanzas/g2_acumulado(1).png)
+![Flujo acumulado nominal y descontado](../Images/Finanzas/g2_acumulado (1).png)
 
 ![Flujo con beneficios, costos y flujo neto](../Images/Finanzas/g3_flujo_componentes.png)
 
