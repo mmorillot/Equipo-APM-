@@ -98,7 +98,7 @@ Una empresa del sector lácteo necesita modernizar su planta para mejorar la int
       <i>CIO</i>
     </td>
     <td align="center" width="33%">
-      <img src="ruta/foto_juan.jpg" width="150" height="150" style="border-radius:50%;"><br>
+      <img src="ruta/foto_juan.jpeg" width="150" height="150" style="border-radius:50%;"><br>
       <b>Juan Felipe Salamanca Lancheros</b><br>
       <i>CFO</i>
     </td>
