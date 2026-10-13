@@ -1,5 +1,5 @@
 **<div align="center">
-  <h1>Módulo 2: Gestión y Evaluación de la Producción</h1>
+  <h1>Gestión y Evaluación de la Producción</h1>
   <h3><i>Línea de Quesos Frescos (Pasta Hilada) — OwlTech Automation</i></h3>
 </div>
 
