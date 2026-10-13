@@ -70,7 +70,7 @@ Una empresa del sector lácteo necesita modernizar su planta para mejorar la int
       <i>CTO</i>
     </td>
     <td align="center" width="33%">
-      <img src="ruta/foto_miguel.jpg" width="150" height="150" style="border-radius:50%;"><br>
+      <img src="Images/Integrantes/integrante1.jpg" width="150" height="150" style="border-radius:50%;"><br>
       <b>Miguel Angel Ortiz Mejia</b><br>
       <i>CCO</i>
     </td>
