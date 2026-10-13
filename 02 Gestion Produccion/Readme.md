@@ -116,4 +116,4 @@ El experimento de simulación compara el rendimiento de la planta con control ma
 
 **Conclusiones de la Simulación:**
 * La automatización de los parámetros térmicos en la hiladora elimina el cuello de botella virtual generado por paradas no programadas.
-* El *Throughput* simulado alcanza las metas establecidas por el Takt Time, garantizando el cumplimiento de la orden de producción del ERP.**
+* El *Throughput* simulado alcanza las metas establecidas por el Takt Time, garantizando el cumplimiento de la orden de producción del ERP.
