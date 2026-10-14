@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Images/Integrantes/Logo.jpeg" alt="OwlTech Automation Logo" width="300"/>
+  <img src="Images/Logo.jpeg" alt="OwlTech Automation Logo" width="300"/>
   <h1>OwlTech Automation</h1>
   <h3><i>See More. Control Better.</i></h3>
 </div>
