@@ -32,7 +32,7 @@ Después de que la cuajada se acidifica (de 20 a 22 horas), se sumerge en agua c
 Es la versión más sencilla de la familia: solo queso, sin relleno. El manual señala que recién elaborado tiene apariencia de capas, y de ahí se entiende su nombre. La sal se agrega en el agua del hilado, por lo que no lleva paso de salmuera.
 
 <div align="center">
-  <img src="Images/Diagramas/olwtech.jpeg" alt="Diagrama de proceso del queso siete cueros" width="500"/>
+  <img src="Images/Diagramas/diagrama_proceso_7_cueros.png" alt="Diagrama de proceso del queso siete cueros" width="500"/>
 </div>
 
 **Resumen del diagrama:** 23 operaciones, 6 inspecciones, 2 almacenajes y 1 transporte, con tres ramales de insumos (cuajo, agua de hilado y materiales de empaque).
