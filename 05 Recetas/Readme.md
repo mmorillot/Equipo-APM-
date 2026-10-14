@@ -44,7 +44,7 @@ Es la versión más sencilla de la familia: solo queso, sin relleno. El manual s
 Sigue el mismo procedimiento del queso de mano, pero lleva **bocadillo de guayaba** en su interior. El bocadillo se envuelve con la masa hilada y todavía caliente, antes de moldear. Después del moldeo, el queso pasa unos 6 minutos en salmuera, un paso que el manual solo menciona para el quesadillo. Se elabora especialmente en Tunja (Boyacá).
 
 <div align="center">
-  <img src="Images/Diagramas/diagrama_proceso_quesadillo.png" alt="Diagrama de proceso del queso siete cueros" width="500"/>
+  <img src="Images/Diagramas/diagrama_proceso_quesadillo.png" alt="Diagrama de proceso del quesadillo" width="500"/>
 </div>
 
 **Resumen del diagrama:** 28 operaciones, 7 inspecciones, 3 almacenajes y 1 transporte, con cinco ramales de insumos (cuajo, agua de hilado, bocadillo, salmuera y materiales de empaque). En este diagrama el bocadillo se compra ya elaborado y se corta en porciones en la planta.
