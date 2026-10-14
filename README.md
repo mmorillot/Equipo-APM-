@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="ruta/a/tu/logo_owltech.png" alt="OwlTech Automation Logo" width="300"/>
+  <img src="Images/Integrantes/Logo.jpeg" alt="OwlTech Automation Logo" width="300"/>
   <h1>OwlTech Automation</h1>
   <h3><i>See More. Control Better.</i></h3>
 </div>
@@ -60,12 +60,12 @@ Una empresa del sector lácteo necesita modernizar su planta para mejorar la int
 <table align="center">
   <tr>
     <td align="center" width="33%">
-      <img src="Images/Integrantes/foto_duvan.jpg" width="150" height="150" style="border-radius:50%;"><br>
+      <img src="Images/Integrantes/foto_duvan.jp" width="150" height="150" style="border-radius:50%;"><br>
       <b>Duvan Stiven Tique Osorio</b><br>
       <i>CEO</i>
     </td>
     <td align="center" width="33%">
-      <img src="ruta/foto_julian.jpg" width="150" height="150" style="border-radius:50%;"><br>
+      <img src="Images/Integrantes/Fotografia_para_credencial_Julian_Benitez.jpeg" width="150" height="150" style="border-radius:50%;"><br>
       <b>Julian David Benitez Martinez</b><br>
       <i>CTO</i>
     </td>
