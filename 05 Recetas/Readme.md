@@ -31,7 +31,9 @@ Después de que la cuajada se acidifica (de 20 a 22 horas), se sumerge en agua c
 
 Es la versión más sencilla de la familia: solo queso, sin relleno. El manual señala que recién elaborado tiene apariencia de capas, y de ahí se entiende su nombre. La sal se agrega en el agua del hilado, por lo que no lleva paso de salmuera.
 
-![Diagrama de proceso del queso siete cueros](Images/Diagramas/diagrama_proceso_7_cueros.png)
+<div align="center">
+  <img src="Images/Diagramas/diagrama_proceso_7_cueros.png" alt="Diagrama de proceso del queso siete cueros" width="500"/>
+</div>
 
 **Resumen del diagrama:** 23 operaciones, 6 inspecciones, 2 almacenajes y 1 transporte, con tres ramales de insumos (cuajo, agua de hilado y materiales de empaque).
 
@@ -41,7 +43,9 @@ Es la versión más sencilla de la familia: solo queso, sin relleno. El manual s
 
 Sigue el mismo procedimiento del queso de mano, pero lleva **bocadillo de guayaba** en su interior. El bocadillo se envuelve con la masa hilada y todavía caliente, antes de moldear. Después del moldeo, el queso pasa unos 6 minutos en salmuera, un paso que el manual solo menciona para el quesadillo. Se elabora especialmente en Tunja (Boyacá).
 
-![Diagrama de proceso del quesadillo](Images/Diagramas/diagrama_proceso_quesadillo.png)
+<div align="center">
+  <img src="Images/Diagramas/diagrama_proceso_quesadillo.png" alt="Diagrama de proceso del queso siete cueros" width="500"/>
+</div>
 
 **Resumen del diagrama:** 28 operaciones, 7 inspecciones, 3 almacenajes y 1 transporte, con cinco ramales de insumos (cuajo, agua de hilado, bocadillo, salmuera y materiales de empaque). En este diagrama el bocadillo se compra ya elaborado y se corta en porciones en la planta.
 
