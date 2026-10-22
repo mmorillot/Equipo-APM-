@@ -6,8 +6,6 @@
 
 <details>
 <summary><h2>1.0. Planeación y dirección del proyecto</h2></summary>
-
-
 ### 1.1. Definición del proyecto
 
 - [ ] **1.1.1.** Identificación del problema de ingeniería y las necesidades del cliente.
@@ -22,11 +20,8 @@
 - [ ] **1.2.3.** Seguimiento del avance y registro de compromisos del equipo.
 
 </details>
-
 <details>
 <summary><h2>2.0. Análisis del proceso productivo y gestión de la producción</h2></summary>
-
-
 ### 2.1. Caracterización de la planta
 
 - [ ] **2.1.1.** Identificación de las tres líneas de producción: yogures, quesos y leche UHT o bebidas lácteas.
