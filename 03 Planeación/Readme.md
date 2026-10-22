@@ -1,16 +1,11 @@
 ## Estructura de Desglose del Trabajo (EDT)
 
-\<details>
-\<summary>\<strong>01 · Planeación del proyecto\</strong>\</summary>
+
 
 - [ ] **1.1.** Definición del problema, objetivos y alcance.
 - [ ] **1.2.** Elaboración de la EDT y el cronograma.
 - [ ] **1.3.** Asignación de responsables y seguimiento del proyecto.
 
-\</details>
-
-\<details>
-\<summary>\<strong>02 · Análisis y gestión de la producción\</strong>\</summary>
 
 - [ ] **2.1.** Caracterización de las tres líneas, equipos y recursos compartidos.
 - [ ] **2.2.** Elaboración de diagramas de proceso y análisis de tiempos, capacidades, cambios y paradas.
