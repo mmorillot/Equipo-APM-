@@ -5,7 +5,7 @@
 ---
 
 <details>
-<summary><h3>1.0. Planeación y dirección del proyecto</h3></summary>
+<summary><h2>1.0. Planeación y dirección del proyecto</h2></summary>
   
 ### 1.1. Definición del proyecto
 
