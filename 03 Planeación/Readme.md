@@ -209,8 +209,5 @@
 | **6.2. Consolidación de resultados** | | | | | | | | | | | | | | █ | █ | |
 | **6.3. Documentación y presentación** | | | | | | | | █ | █ | █ | █ | █ | █ | █ | █ | █ |
 
-**Convenciones:**
-- `█` Actividad programada.
-- Las celdas vacías representan semanas sin trabajo programado para esa actividad.
 
 
