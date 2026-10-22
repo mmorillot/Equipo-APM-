@@ -5,7 +5,7 @@
 ---
 
 <details>
-<summary><h2>1.0. Planeación y dirección del proyecto</h2></summary>
+<summary><h3>1.0. Planeación y dirección del proyecto</h3></summary>
   
 ### 1.1. Definición del proyecto
 
@@ -22,7 +22,7 @@
 
 </details>
 <details>
-<summary><h2>2.0. Análisis del proceso productivo y gestión de la producción</h2></summary>
+<summary><h3>2.0. Análisis del proceso productivo y gestión de la producción</h3></summary>
 ### 2.1. Caracterización de la planta
 
 - [ ] **2.1.1.** Identificación de las tres líneas de producción: yogures, quesos y leche UHT o bebidas lácteas.
@@ -176,3 +176,39 @@
 - [ ] **6.3.4.** Documentación del trabajo en equipo y del proceso de aprendizaje.
 
 </details>
+
+---
+
+# Diagrama de Gantt
+
+## Proyecto integrador — Automatización de Procesos de Manufactura (APM) 2026-2
+
+**Duración del proyecto:** 16 semanas
+
+| Actividad | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
+|---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| **1.0. Planeación y dirección del proyecto** | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ |
+| **2.1. Caracterización de la planta** | █ | █ | █ | | | | | | | | | | | | | |
+| **2.2. Análisis de tiempos y capacidades** | | █ | █ | █ | | | | | | | | | | | | |
+| **2.3. Análisis de la situación actual** | | | █ | █ | █ | | | | | | | | | | | |
+| **2.4. Simulación y mejora de la producción** | | | | | █ | █ | █ | █ | █ | | | | | | | |
+| **2.5. Gestión de la producción y mantenimiento** | | | | █ | █ | █ | █ | | | | | | | | | |
+| **3.1. Modelado ISA-88** | | | █ | █ | █ | | | | | | | | | | | |
+| **3.2. Arquitectura ISA-95** | | | | █ | █ | █ | | | | | | | | | | |
+| **3.3. Instrumentación y comunicaciones** | | | | | █ | █ | █ | | | | | | | | | |
+| **4.1. Distribución de planta** | | | █ | █ | █ | █ | | | | | | | | | | |
+| **4.2. Diagramas técnicos de instrumentación (P&ID)** | | | | | | █ | █ | █ | | | | | | | | |
+| **4.3. Diseño y simulación de la celda robotizada** | | | | | | █ | █ | █ | █ | █ | | | | | | |
+| **5.1. Diseño del control secuencial** | | | | | | | █ | █ | █ | █ | | | | | | |
+| **5.2. Desarrollo del gemelo digital** | | | | | | | | █ | █ | █ | █ | █ | | | | |
+| **5.3. Sistema SCADA y HMI** | | | | | | | | | █ | █ | █ | █ | █ | | | |
+| **5.4. Integración funcional** | | | | | | | | | | | | █ | █ | █ | | |
+| **6.1. Evaluación económica** | | | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | | |
+| **6.2. Consolidación de resultados** | | | | | | | | | | | | | | █ | █ | |
+| **6.3. Documentación y presentación** | | | | | | | | | | | | █ | █ | █ | █ | █ |
+
+**Convenciones:**
+- `█` Actividad programada.
+- Las celdas vacías representan semanas sin trabajo programado para esa actividad.
+
+
