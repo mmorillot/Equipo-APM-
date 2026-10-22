@@ -5,7 +5,7 @@
 ---
 
 <details>
-<summary><h3>1.0. Planeación y dirección del proyecto</h3></summary>
+<summary><h2>1.0. Planeación y dirección del proyecto</h2></summary>
   
 ### 1.1. Definición del proyecto
 
@@ -22,7 +22,7 @@
 
 </details>
 <details>
-<summary><h3>2.0. Análisis del proceso productivo y gestión de la producción</h3></summary>
+<summary><h2>2.0. Análisis del proceso productivo y gestión de la producción</h2></summary>
 ### 2.1. Caracterización de la planta
 
 - [ ] **2.1.1.** Identificación de las tres líneas de producción: yogures, quesos y leche UHT o bebidas lácteas.
@@ -203,9 +203,9 @@
 | **5.2. Desarrollo del gemelo digital** | | | | | | | | █ | █ | █ | █ | █ | | | | |
 | **5.3. Sistema SCADA y HMI** | | | | | | | | | █ | █ | █ | █ | █ | | | |
 | **5.4. Integración funcional** | | | | | | | | | | | | █ | █ | █ | | |
-| **6.1. Evaluación económica** | | | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | | |
+| **6.1. Evaluación económica** | | | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | | | |
 | **6.2. Consolidación de resultados** | | | | | | | | | | | | | | █ | █ | |
-| **6.3. Documentación y presentación** | | | | | | | | | | | | █ | █ | █ | █ | █ |
+| **6.3. Documentación y presentación** | | | | | | | | █ | █ | █ | █ | █ | █ | █ | █ | █ |
 
 **Convenciones:**
 - `█` Actividad programada.
