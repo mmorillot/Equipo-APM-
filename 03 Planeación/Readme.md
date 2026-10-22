@@ -11,7 +11,7 @@
 
 - [ ] **1.1.1.** Identificación del problema de ingeniería y las necesidades del cliente.
 - [ ] **1.1.2.** Definición de los objetivos general y específicos.
-- [ ] **1.1.3.** Definición del alcance y las limitaciones del proyecto.
+- [ ] **1.1.3.** Definición del alcance.
 - [ ] **1.1.4.** Identificación de los entregables del proyecto.
 
 ### 1.2. Planeación del trabajo
@@ -187,7 +187,8 @@
 
 | Actividad | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 |
 |---|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| **1.0. Planeación y dirección del proyecto** | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ |
+| **1.1. Definición del proyecto** | █ | █ | | | | | | | | | | | | | | |
+| **1.2. Planeación y dirección del proyecto** | | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ | █ |
 | **2.1. Caracterización de la planta** | █ | █ | █ | | | | | | | | | | | | | |
 | **2.2. Análisis de tiempos y capacidades** | | █ | █ | █ | | | | | | | | | | | | |
 | **2.3. Análisis de la situación actual** | | | █ | █ | █ | | | | | | | | | | | |
