@@ -8,7 +8,7 @@
 <summary><strong>1.0. Planeación y dirección del proyecto</strong></summary>
 
 
-### 1.1. Definición del proyecto
+#### 1.1. Definición del proyecto
 
 - [ ] **1.1.1.** Identificación del problema de ingeniería y las necesidades del cliente.
 - [ ] **1.1.2.** Definición de los objetivos general y específicos.
