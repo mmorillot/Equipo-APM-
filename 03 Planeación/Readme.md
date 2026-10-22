@@ -7,7 +7,6 @@
 <details>
 <summary><strong>1.0. Planeación y dirección del proyecto</strong></summary>
 
-**Carpeta sugerida:** `03 Planeacion`
 
 ### 1.1. Definición del proyecto
 
@@ -27,7 +26,6 @@
 <details>
 <summary><strong>2.0. Análisis del proceso productivo y gestión de la producción</strong></summary>
 
-**Carpeta sugerida:** `02 Gestion Produccion`
 
 ### 2.1. Caracterización de la planta
 
@@ -71,7 +69,6 @@
 <details>
 <summary><strong>3.0. Transformación Digital Industrial y arquitectura de automatización</strong></summary>
 
-**Carpeta sugerida:** `01 TDI`
 
 ### 3.1. Modelado ISA-88
 
@@ -97,7 +94,6 @@
 <details>
 <summary><strong>4.0. Diseño de planta, instrumentación y celda robotizada</strong></summary>
 
-**Carpeta sugerida:** `04 Layout y Diagramas`
 
 ### 4.1. Distribución de planta
 
@@ -159,7 +155,6 @@
 <details>
 <summary><strong>6.0. Evaluación técnico-económica y presentación de la propuesta</strong></summary>
 
-**Carpeta sugerida:** `03 Planeacion y Entregables Generales`
 
 ### 6.1. Evaluación económica
 
