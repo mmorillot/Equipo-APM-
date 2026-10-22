@@ -24,7 +24,7 @@
 </details>
 
 <details>
-<summary><strong>2.0. Análisis del proceso productivo y gestión de la producción</strong></summary>
+<summary><h2>2.0. Análisis del proceso productivo y gestión de la producción</h2></summary>
 
 
 ### 2.1. Caracterización de la planta
@@ -67,7 +67,7 @@
 </details>
 
 <details>
-<summary><strong>3.0. Transformación Digital Industrial y arquitectura de automatización</strong></summary>
+<summary><h2>3.0. Transformación Digital Industrial y arquitectura de automatización</h2></summary>
 
 
 ### 3.1. Modelado ISA-88
@@ -92,7 +92,7 @@
 </details>
 
 <details>
-<summary><strong>4.0. Diseño de planta, instrumentación y celda robotizada</strong></summary>
+<summary><h2>4.0. Diseño de planta, instrumentación y celda robotizada</h2></summary>
 
 
 ### 4.1. Distribución de planta
@@ -116,7 +116,7 @@
 </details>
 
 <details>
-<summary><strong>5.0. Automatización, control y supervisión de la línea seleccionada</strong></summary>
+<summary><h2>5.0. Automatización, control y supervisión de la línea seleccionada</h2></summary>
 
 ### 5.1. Diseño del control secuencial
 
@@ -153,7 +153,7 @@
 </details>
 
 <details>
-<summary><strong>6.0. Evaluación técnico-económica y presentación de la propuesta</strong></summary>
+<summary><h2>6.0. Evaluación técnico-económica y presentación de la propuesta</h2></summary>
 
 
 ### 6.1. Evaluación económica
