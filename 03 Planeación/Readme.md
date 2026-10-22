@@ -23,6 +23,7 @@
 </details>
 <details>
 <summary><h2>2.0. Análisis del proceso productivo y gestión de la producción</h2></summary>
+  
 ### 2.1. Caracterización de la planta
 
 - [ ] **2.1.1.** Identificación de las tres líneas de producción: yogures, quesos y leche UHT o bebidas lácteas.
