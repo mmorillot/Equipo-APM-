@@ -17,8 +17,8 @@
 ### 1.2. Planeación del trabajo
 
 - [x] **1.2.1.** Elaboración de la estructura de desglose del trabajo (EDT).
-- [ ] **1.2.2.** Elaboración del cronograma.
-- [ ] **1.2.3.** Seguimiento del avance y registro de compromisos del equipo.
+- [x] **1.2.2.** Elaboración del cronograma.
+- [x] **1.2.3.** Seguimiento del avance y registro de compromisos del equipo.
 
 </details>
 <details>
