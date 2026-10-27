@@ -1,5 +1,4 @@
 ## Duvan Stiven Tique Osorio
-## Maria Fernanda Morillo Tovar 
 ## Julian David Benitez Martinez 
 ## Miguel Angel Ortiz Mejia 
 ## David Santiago Pirateque Suarez 
