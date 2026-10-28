@@ -40,7 +40,7 @@
 - [ ] **2.2.4.** Identificación de paradas programadas y no programadas.
 - [ ] **2.2.5.** Estimación de tiempos de falla y reparación para el análisis de MTBF y MTTR.
 
-### 2.3. Análisis de la situación actual
+### 2.3. Análisis de rendimiento actual
 
 - [ ] **2.3.1.** Elaboración del mapa de flujo de valor actual (VSM).
 - [ ] **2.3.2.** Determinación del OEE y sus componentes.
